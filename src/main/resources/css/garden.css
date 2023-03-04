@@ -1,0 +1,54 @@
+.root{
+	-fx-background-color: transparent;
+}
+
+.button {
+    -fx-background-color:
+        linear-gradient(#f0ff35, #a9ff00),
+        radial-gradient(center 50% -40%, radius 200%, #b8ee36 45%, #80c800 50%);
+    -fx-background-radius: 6, 5;
+    -fx-background-insets: 0, 1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+    -fx-text-fill: #395306;
+}
+
+.sidebar-text{
+	-fx-font-size: 15pt;
+}
+
+.combo-box-base {
+    -fx-background-color:
+        linear-gradient(#f0ff35, #a9ff00),
+        radial-gradient(center 50% -40%, radius 200%, #b8ee36 45%, #80c800 50%);
+    -fx-background-radius: 6, 5;
+    -fx-background-insets: 0, 1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+    -fx-text-fill: #395306;	
+}
+
+.display-text{
+	-fx-font-size: 15pt;
+    -fx-text-fill: #395306;
+	-fx-background-color: transparent;
+	-fx-border-color: blue;
+	-fx-border-width: 1;
+}
+
+.garden-screen{
+	-fx-background-color: #e0ffff;
+}
+
+.plant-scroll-pane{
+	-fx-background-color: transparent;
+	-fx-border-color: blue;
+	-fx-border-width: 1;
+}
+
+.plant-scroll-pane .viewport {
+	-fx-background-color: transparent;
+}
+
+.parameter-toolbar{
+	-fx-background-color: transparent;
+}
+
